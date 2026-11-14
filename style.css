@@ -231,3 +231,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
   .site-footer { padding: 44px 20px; font-size: 12px; }
 }
+
+/* 숫자 모양 통일 */
+.price-list .price { font-family: var(--sans); font-size: 16px; font-weight: 500; }
+.eyebrow, .num, .nav, .back, .view-menu, .card-sub, .hero-title, .logo-en, .sub-logo { font-variant-numeric: lining-nums; }
